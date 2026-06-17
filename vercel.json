@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "내시경_오더_가이드_v29.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/내시경_오더_가이드_v29.html" }
+  ]
+}
